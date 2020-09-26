@@ -12,8 +12,12 @@ This hack reminded me of the physically disabled in our community who are still 
 The user has to wear this device and tap on his finger with other fingers. Just like tapping on a virtual keyboard that is present on your hand. These key presses are then converted into characters with which could be seen on the screen present on the back of the users' hand. Autocomplete algorithm is used which can be used to complete words or even sentences. 
 ![](https://github.com/prasad-kumkar/express/blob/master/circuit/EXPRESS%201.jpg?raw=true)
 
-The image below shows the key-points (circles) where the user can touch to register a keypress.
-![](https://github.com/prasad-kumkar/express/blob/master/circuit/image.png)
+The image below shows the key-points (circles) where the user can touch to register a keypress. This shows a possible combination of 20+ keys.
+![](https://github.com/prasad-kumkar/express/blob/master/circuit/Scan10005.jpg?raw=true)
+
+Sign Language Recognition:
+Flex sensors are placed on the back of each finger to measure each finger's bending. Measurement from flex sensor and gyroscope (hand-rotation) can be used as an input into our recurrent neural network to predict the sign language and it's meaning.
+![](https://github.com/prasad-kumkar/express/blob/master/circuit/flex-sensor.jpg?raw=true)
 
 ## How I built it
 This device is build by 3D printing it and attaching hardware to it. Code for the hardware is provided in the repository above. This code needs to be uploaded to an ESP32 development board which has to be attached to the components below.
